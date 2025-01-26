@@ -22,7 +22,7 @@ const Navbar = () => {
         </a>
         <div className="menuIcon">
           <img
-            src="/public/menu.png"
+            src="/menu.png"
             alt=""
             onClick={() => setOpen(!open)}
             //onClick={() => setOpen((prev) => !prev)} //to samo co wyzej tylko z uzyciem wartosci prev

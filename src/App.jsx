@@ -5,7 +5,7 @@ import HomePage from "./routes/homePage/homePage";
 function App() {
   return (
     <div className="layout">
-      <div className="navBar">
+      <div className="navbar">
         <Navbar />
       </div>
       <div className="content">

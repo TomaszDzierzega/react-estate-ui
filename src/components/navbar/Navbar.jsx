@@ -3,6 +3,8 @@ import "./Navbar.scss";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const user = false;
+
   return (
     <nav>
       <div className="left">
@@ -16,10 +18,16 @@ const Navbar = () => {
         <a href="/">Agents</a>
       </div>
       <div className="right">
-        <a href="/">Sign in</a>
-        <a href="/" className="register">
-          Sign up
-        </a>
+        {user ? (
+          <div></div>
+        ) : (
+          <>
+            <a href="/">Sign in</a>
+            <a href="/" className="register">
+              Sign up
+            </a>
+          </>
+        )}
         <div className="menuIcon">
           <img
             src="/menu.png"

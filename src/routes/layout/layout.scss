@@ -26,7 +26,7 @@
 
   .content {
     //background-color: rebeccapurple;
-    //height: calc(100vh - 100px); // zamiast tego mozna uzyc flex:1
-    flex: 1;
+    height: calc(100vh - 100px); // zamiast tego mozna uzyc flex:1
+    //flex: 1;
   }
 }
